@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="activity_indicator_type" format="enum">
+        <enum name="Pulsating" value="0"/>
+        <enum name="Spinner" value="1"/>
+    </attr>
+
+    <declare-styleable name="SAActivityIndicator">
+        <attr name="activity_indicator_type"/>
+        <attr name="activity_indicator_color" format="color"/>
+        <attr name="activity_indicator_size" format="dimension"/>
+    </declare-styleable>
+
+</resources>
