@@ -3,6 +3,8 @@ package com.sumitanantwar.sa_activityindicator;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Color;
+import android.graphics.drawable.shapes.OvalShape;
+import android.graphics.drawable.shapes.Shape;
 import android.util.AttributeSet;
 import android.widget.RelativeLayout;
 
@@ -51,6 +53,12 @@ public class SAActivityIndicator extends RelativeLayout
 
     private void initialize()
     {
+
+    }
+
+    private void generatePulsatingIndicator()
+    {
+        Shape circle = new OvalShape();
 
     }
 }
