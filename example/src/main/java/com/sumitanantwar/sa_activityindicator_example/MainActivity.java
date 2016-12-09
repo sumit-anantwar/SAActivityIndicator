@@ -4,7 +4,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.sumitanantwar.sa_activityindicator.ActivityIndicatorType;
 import com.sumitanantwar.sa_activityindicator.SAActivityIndicator;
 
 public class MainActivity extends AppCompatActivity

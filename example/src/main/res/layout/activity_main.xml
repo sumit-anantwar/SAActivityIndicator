@@ -15,9 +15,8 @@
 
     <com.sumitanantwar.sa_activityindicator.SAActivityIndicator
         android:id="@+id/Pulse"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_margin="10dp"
         app:activity_indicator_color="@color/colorPrimary"
         app:activity_indicator_size="100dp">
@@ -32,9 +31,8 @@
 
     <com.sumitanantwar.sa_activityindicator.SAActivityIndicator
         android:id="@+id/Spin"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_margin="10dp"
         app:activity_indicator_type="Spinner"
@@ -42,5 +40,6 @@
         app:activity_indicator_color="@color/colorAccent"/>
 
     </LinearLayout>
+
 
 </RelativeLayout>

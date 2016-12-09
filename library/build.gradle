@@ -29,3 +29,30 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.2.1'
     testCompile 'junit:junit:4.12'
 }
+
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'sa-activity-indicator'
+
+    publishedGroupId = 'com.sumitanantwar'
+    libraryName = 'SAActivityIndicator'
+    artifact = 'sa-activity-indicator'
+
+    libraryDescription = 'Activity Indicator Library for Android'
+
+    siteUrl = 'https://github.com/sumit-anantwar/SAActivityIndicator'
+    gitUrl = 'https://github.com/sumit-anantwar/SAActivityIndicator.git'
+
+    libraryVersion = '0.0.1'
+
+    developerId = 'sumit-anantwar'
+    developerName = 'Sumit Anantwar'
+    developerEmail = 'develop@sumitanantwar.com'
+
+    licenseName = 'MIT License'
+    licenseUrl = 'https://opensource.org/licenses/MIT'
+    allLicenses = ["MIT"]
+}
+
+apply from: '../install.gradle'
+apply from: '../bintray.gradle'
